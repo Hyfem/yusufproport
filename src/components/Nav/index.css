@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
-    z-index: 2;
+    z-index: 999;
     position: absolute;
     color: #fff;
     background: transparent;
@@ -48,15 +48,17 @@ li{
         display: flex;
         flex-direction: column;
         width: 100%;
-        top: -100vh;
+        top: -1500vh;
         left: 0;
         position: absolute;
         justify-content: space-between;
         /* align-items: center; */
        /*  color: rgba(255, 255, 255, .95); */
         background-color: #f5f5f5;
-        transition: 0.3s ease;
+        transition: transform 0.9s ease-in-out;
+        transform: translateX(-100%);
         color: #000;
+        z-index: 998;
     }
 
     .dark {
@@ -66,6 +68,7 @@ li{
 
     .active{
         top: 85px;
+        transform: translateX(0);
     }
 
     .mobile-menu li{
