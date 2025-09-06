@@ -1,0 +1,20 @@
+.container{
+    border-left: inset red ;
+    border-bottom: inset red;
+}
+
+.container2{
+    border-left: inset red ;
+    border-bottom: inset red;
+}
+
+.htmlicon, .cssicon, 
+.jsicon, .tailwindsicon
+, .reacticon, .bootstrapicon{
+    font-size: 40px;
+}
+
+icon1{
+    font-size: 40px;
+}
+

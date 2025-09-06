@@ -1,0 +1,38 @@
+.contentdiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    font-family: "Comic Neue", cursive;
+    font-style: static;
+    background: linear-gradient(145deg, #cccccc 0%, #999999 75%);
+
+}
+
+
+
+.about-me{
+    height: fit-content;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+
+    font-size: 30px;
+    background: linear-gradient(135deg, #ffffff 10%, #e6e6e6 75%);
+    box-shadow: 4px 4px 12px rgba(2,3,4,4.8);
+}
+
+.leftnote, .middlenote, .rightnote{
+    margin: 10px;
+    width: 400px;
+    height: fit-content;
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ffffff 10%, #e6e6e6 75%);
+
+    box-shadow: 4px 4px 12px rgba(2,3,4,4.8);
+}

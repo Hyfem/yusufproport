@@ -1,0 +1,29 @@
+.main-container{
+background: linear-gradient(145deg, #999999 0%, #666666 75%);
+         padding: 20px;
+         font-family: "Comic Neue", cursive;
+         font-style: static;
+         padding: 20px;
+         height: 100%;
+
+}
+
+.prj{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+   
+
+}
+
+.box{
+    width: 200px;
+    height: fit-content;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 19px;    
+}
