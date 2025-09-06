@@ -43,7 +43,7 @@ li{
 }
 
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 640px){
     .mobile-menu{
         display: flex;
         flex-direction: column;

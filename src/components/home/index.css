@@ -25,23 +25,22 @@
 }
 
 .content {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   height: fit-content;
   z-index: 1;
   text-align: center;
   align-content: center;
   justify-content: center;
-  margin-top: 250px;
+  margin-top: 150px;
 
 }
 
 
 .left{
-  text-align: left;
-  width: fit-content;
-  height: 500px;
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
   height: fit-content;
   box-sizing: border-box;
  /* border:solid red 5px; had to disable this because the job is done */
@@ -49,13 +48,11 @@
 }
 
 .right{
-  width: fit-content;
-  height: 500px;
-  height: 145px;
+  height: fit-content;
   box-sizing: border-box;
  /* border:solid red 5px; i was using the line to see my div box*/
-  padding-top: 60px;
-  text-align: left;
+  text-align: center;
+  width: 100%;
 }
 
 @media screen and (max-width:640px) {

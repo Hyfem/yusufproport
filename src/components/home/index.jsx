@@ -8,7 +8,7 @@ function Home(){
     return(
         <>
         <div name='Home' className='Land relative w-full h-screen'>
-            <img id="image" src={portLanding} alt="Landing" 
+            <img id="image" src={portLanding} alt="/" 
              className="absolute top-0 left-0 w-[100vw] h-[100vh] object-cover -z-10 pointer-events-none"     
             />
 
