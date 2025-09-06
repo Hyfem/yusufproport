@@ -9,12 +9,12 @@ function Home(){
         <>
         <div name='Home' className='Land relative w-full h-screen'>
             <img id="image" src={portLanding} alt="/" 
-             className="absolute top-0 left-0 w-[100vw] h-[100vh] object-cover -z-10 pointer-events-none"     
+             className="absolute top-0 left-0 w-full h-full object-cover z-0 pointer-events-none"     
             />
 
 
             <div className='layout'></div>
-            <div className='content ' >
+            <div className='content relative z-20 text-center mt-28 px-4 text-white' >
                 <div className='left '>
                     <h1>AYINDE YUSUF IFEMI</h1>
                     <h2 className='text-[20px]'>Frontend Web Developer</h2>
