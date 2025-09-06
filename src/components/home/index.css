@@ -62,4 +62,15 @@
     text-align: center;
 
   }
+
+  .content {
+  width: 100%;
+  height: fit-content;
+  z-index: 1;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 110px;
+
+}
 }
