@@ -3,7 +3,6 @@
   height: 100dvh;
   position: relative;
   overflow: hidden;
-
   font-family: "Comic Neue", cursive;
 
 }
@@ -47,13 +46,7 @@
   margin: 10px;
 }
 
-.right{
-  height: fit-content;
-  box-sizing: border-box;
- /* border:solid red 5px; i was using the line to see my div box*/
-  text-align: center;
-  width: 100%;
-}
+
 
 @media screen and (max-width:640px) {
   .right{
@@ -68,7 +61,7 @@
   height: fit-content;
   z-index: 1;
   text-align: center;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 
 
