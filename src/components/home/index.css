@@ -1,6 +1,6 @@
 .Land {
   width: 100vw;
-  height: 100dvh;
+  height: 100%;
   position: relative;
   overflow: hidden;
   font-family: "Comic Neue", cursive;
@@ -28,9 +28,9 @@
   height: fit-content;
   z-index: 1;
   text-align: center;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  margin-top: 220px;
+  margin-top: 180px;
 
 }
 
@@ -48,22 +48,30 @@
 
 
 
-@media screen and (max-width:640px) {
-  .right{
-    padding-top:0;
-    height: fit-content;
-    text-align: center;
 
-  }
+
+@media screen and (max-width:640px) {
+  .left{
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  height: fit-content;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+ /* border:solid red 5px; had to disable this because the job is done */
+}
 
   .content {
   width: 100%;
-  height: fit-content;
+  height: 100%;
   z-index: 1;
   text-align: center;
   align-items: center;
   justify-content: center;
 
 
+
 }
+
+
 }

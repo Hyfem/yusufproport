@@ -24,6 +24,7 @@ function Home(){
                     <a href="/Ayinde_Yusuff_resume.pdf" download="AYINDE Yusuf Resume"><button className='btn text-white bg-red-700 p-[5px] m-[5px]'>Download Resume</button></a>
 
                 </div>
+                <div className='right'></div>
                 
 
             </div>
