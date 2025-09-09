@@ -14,7 +14,7 @@ function Home(){
 
 
             <div className='layout'></div>
-            <div className='content relative z-20 text-center mt-28 px-4 text-white' >
+            <div className='content relative z-20 text-center px-4 text-white' >
                 <div className='left '>
                     <h1>AYINDE YUSUF IFEMI</h1>
                     <h2 className='text-[20px]'>Frontend Web Developer</h2>
