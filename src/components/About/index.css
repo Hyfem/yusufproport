@@ -1,5 +1,6 @@
 .contentdiv{
     display: flex;
+    justify-items: center;
     flex-wrap: wrap;
     width: 100%;
     height: fit-content;
