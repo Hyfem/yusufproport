@@ -7,7 +7,7 @@ import './index.css'
 function Home(){
     return(
         <>
-        <div name='Home' className='Land relative w-full h-screen'>
+        <div name='Home' className='Land relative w-full min-h-screen'>
             <img id="image" src={portLanding} alt="/" 
              className="absolute top-0 left-0 w-full h-full object-cover z-0 pointer-events-none"     
             />
