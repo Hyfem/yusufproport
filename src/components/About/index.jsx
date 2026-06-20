@@ -8,7 +8,7 @@ function About(){
             <div className='leftnote' >
              
             <h2>
-              Hi, I'm Ayinde Yusuf Ifemi, a passionate frontend 
+              Hi, I'm Ayinde Yusuf Ifemi, a passionate  
               web developer from Lagos, Nigeria.
             
             </h2>
