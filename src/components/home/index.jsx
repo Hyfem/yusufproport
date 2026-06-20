@@ -17,11 +17,11 @@ function Home(){
             <div className='content relative z-20 text-center px-4 text-white' >
                 <div className='left '>
                     <h1>AYINDE YUSUF IFEMI</h1>
-                    <h2 className='text-[20px]'>Frontend Web Developer</h2>
+                    <h2 className='text-[20px]'>Full Stack Web Developer</h2>
                     <p className='text-[20px]'> I focused on meeting deadlines and delivering</p>
                     <p className='text-[17px]'>results — confident working solo or with a team.</p>
                      <Link to='Mystack' smooth={true} duration={500}><button className='btn text-white bg-red-700 p-[5px] m-[5px] '>Check Stacks</button></Link> <br/>
-                    <a href="/Ayinde_Yusuff_resume.pdf" download="AYINDE Yusuf Resume"><button className='btn text-white bg-red-700 p-[5px] m-[5px]'>Download Resume</button></a>
+                    <a href="/.Yusuf_Ayinde_26_cvpdf" download="AYINDE Yusuf Resume"><button className='btn text-white bg-red-700 p-[5px] m-[5px]'>Download Resume</button></a>
 
                 </div>
                 

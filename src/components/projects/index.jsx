@@ -1,5 +1,6 @@
 import Logo from '../../assets/bakesncravelogo.webp';
 import Sign from '../../assets/signature.png';
+import aero from '../../assets/aero.jpeg';
 
 import { Link } from 'react-router-dom';
 
@@ -12,6 +13,18 @@ function Projects (){
         <div name='Project' className='main-container text-white w-full '>
             <h1 className='w-full'>PROJECTS</h1>
             <div className='prj w-full'>
+
+                <div className='prj w-full'>
+                <div className='box'>
+                    <img src={aero} alt="/" className='w-[150px]  Logo ' />
+                    <p className='w-full mt-4'>
+                        Built a responsive landing page for Aeroguide Services, an aviation company focused on safety, compliance, and operational excellence, featuring smooth UI animations.
+                    </p>
+                    <a href='https://aeroguideservices.vercel.app/'>
+                     <button className='btn p-[5px] m-[5px] text-white bg-red-500 '>Check</button>
+                    </a>
+                </div>
+
                 <div className='box'>
             
                    <img src={Logo} alt="/" className='w-[150px]  Logo ' />
@@ -25,6 +38,7 @@ function Projects (){
                   <button className='btn p-[5px] m-[5px] text-white bg-red-500 '>Check</button>
                  </a>
                 </div>
+
                 <div className='box'>            
                    <img src={Sign} alt="/" className='w-[300px]  Logo mt-20' />
                  <p className='w-full mt-10'>
@@ -32,10 +46,14 @@ function Projects (){
                    This flight booking site demonstrates UI and user experience,
                     but lacks full booking functionality at the moment  
                  </p>
-                 <a href='https://spaceair.netlify.app'><button className='btn p-[5px] m-[5px] text-white bg-red-500 '>Check</button></a>
+                 <a href='https://spaceair.netlify.app'>
+                    <button className='btn p-[5px] m-[5px] text-white bg-red-500 '>Check</button>
+                 </a>
                 </div>
+
             </div>
 
+            </div>
         </div>
     )
 }
