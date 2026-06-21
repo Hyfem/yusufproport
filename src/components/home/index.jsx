@@ -21,7 +21,7 @@ function Home(){
                     <p className='text-[20px]'> I focused on meeting deadlines and delivering</p>
                     <p className='text-[17px]'>results — confident working solo or with a team.</p>
                      <Link to='Mystack' smooth={true} duration={500}><button className='btn text-white bg-red-700 p-[5px] m-[5px] '>Check Stacks</button></Link> <br/>
-                    <a href="/Yusuf_Ayindecv.pdf" download="AYINDE Yusuf Resume"><button className='btn text-white bg-red-700 p-[5px] m-[5px]'>Download Resume</button></a>
+                    <a href="/Yusuf_Ayindecvv.pdf" download="AYINDE Yusuf Resume"><button className='btn text-white bg-red-700 p-[5px] m-[5px]'>Download Resume</button></a>
 
                 </div>
                 
